@@ -1,3 +1,145 @@
+@media (max-width: 576px){
+  
+
+    
+    }
+ 
+
 body{
     background-color: #313235;
+    font-family: 'Source Code Pro';
 }
+
+/*customizations*/
+.sections-margin{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.nav-link:focus{
+    outline: none;
+}
+
+.section_grey{
+    background-color:#464646;
+}
+
+.header_custom{
+    margin-top: 20px;
+}
+
+.logo{
+    padding-left: 40px;
+}
+
+.navbar-spacing{
+   font-size: 18px;
+   margin-right: 2rem;
+   color: #eeeeee;
+   border-radius: 10px;
+   border:1px solid #eeeeee;
+}
+
+.navbar-spacing:hover{
+    color:#464646;
+    border:1px solid #464646;
+    background-color: #c7c7c7;
+}
+
+/*-------sections about us classes-------------*/
+
+h1{
+    font-size: 50px;
+}
+
+.border_div_format{
+    border: 4px solid #222222;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+li{
+    font-size: 30px;
+}
+
+
+/*-----------  SERVICES -----------------------------*/
+
+
+h1.services{
+    color: #eeeeee;
+    margin-bottom: 3rem;
+}
+
+.border_div_format_serv{
+    text-align: center;
+    border: 4px solid #eeeeee;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+/*---------------- Feature Box ------------------*/
+
+.my_feature_style{
+    margin: 4px 4px;
+    background-color: #313235;
+    color: #eeeeee;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 0px;
+  
+  }
+  
+  .my_icon_style{
+    margin: 4px 4px;
+    background-color: #313235;
+    color: #eeeeee;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+/*------------------ Contacts Icon---------------------- */
+
+.my_icon_style_contacts{
+    margin: 4px 10px;
+    background-color: #313235;
+    color: #eeeeee;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    border: none;
+  }
+
+  .my_icon_style_contacts:hover{
+    color: #1d1d1d;
+  }
+
+  .my_icon_style_contacts:focus{
+    outline: none;
+  }
+  
+  .p_custom{
+    font-size: 0.8rem;
+  }
+
+
+  .col_center{
+    text-align: center;
+  }
+
+
+  .other_color{
+    color: #eeeeee;
+  }
