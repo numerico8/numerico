@@ -1,16 +1,61 @@
 @media (max-width: 576px){
+
+    .sections-margin{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    .logo{
+        padding-right: 45px;
+    }
+
+    .mr-5{
+        margin-left: 4rem;
+    }
+       
+    .center-mobile{
+        align-content: center;
+    }
+
+    .navbar-header{
+        text-align:center;
+    }
+    
+    .navbar-toggler {
+        background-color: #eeeeee;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 3px;
+    }
+
+    .navbar-toggler:focus{
+        outline: none;
+    }
   
+    .h1{
+        font-size: 30px;
+    }
+
+    .li-mobile{
+        font-size: 20px;
+    }
+
 
     
     }
  
+
+    /*general customizations*/
 
 body{
     background-color: #313235;
     font-family: 'Source Code Pro';
 }
 
-/*customizations*/
+
 .sections-margin{
     margin-left: 5%;
     margin-right: 5%;
@@ -25,6 +70,8 @@ body{
 .section_grey{
     background-color:#464646;
 }
+
+/*-------header ---------------------*/
 
 .header_custom{
     margin-top: 20px;
@@ -86,7 +133,7 @@ h1.services{
 }
 
 
-/*---------------- Feature Box ------------------*/
+/*---------------- Feature Box Services ------------------*/
 
 .my_feature_style{
     margin: 4px 4px;
@@ -107,7 +154,55 @@ h1.services{
     margin-bottom: 1rem;
   }
 
+  h5.services{
+      color: #eeeeee;
+      margin-bottom: 60px;
+  }
 
+
+  a:hover{
+      color: black;
+  }
+/*---------------- Team ------------------*/
+
+.avatar{
+  vertical-align: middle;
+  width: 12rem;
+  height: 13rem;
+  border-radius: 50%;
+}
+
+.my_feature_style_team{
+    margin: 1.5rem;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 0px;
+  }
+
+  .title{
+      margin: 1.5rem;
+  }
+
+  .my_icon_style_team{
+    margin: 4px 10px;
+    background-color: #464646;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    border: none;
+  }
+
+  .my_icon_style_team:hover{
+    color: #358bd1;
+    margin: none;
+    padding: none;
+  }
+
+  .my_icon_style_team:focus{
+    color: #358bd1;
+    margin: none;
+    padding: none;
+    outline: none;
+  }
 
 
 /*------------------ Contacts Icon---------------------- */
